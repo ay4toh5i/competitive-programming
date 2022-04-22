@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    working_dir:  /atcoder
+    volumes: 
+      - .:/atcoder
+    tty: true

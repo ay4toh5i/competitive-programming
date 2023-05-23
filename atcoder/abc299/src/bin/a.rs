@@ -1,3 +1,15 @@
+use proconio::input;
+use regex::Regex;
+
 fn main() {
-    todo!();
+    input! {
+        _n: usize,
+        s: String,
+    }
+
+    if Regex::new(r"\|\.*\*\.*\|").unwrap().is_match(&s) {
+        println!("in");
+    } else {
+        println!("out");
+    }
 }

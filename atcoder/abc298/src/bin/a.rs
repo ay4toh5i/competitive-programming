@@ -10,7 +10,7 @@ fn main() {
     let mut r = 0;
     let mut f = 0;
 
-    for &x in s.iter() { 
+    for &x in s.iter() {
         if x == 'o' {
             r += 1;
         }

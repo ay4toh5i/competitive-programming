@@ -24,7 +24,7 @@ fn main() {
             println!("Yes");
             return;
         }
-        
+
         _a = rot(_a);
     }
 
@@ -37,7 +37,7 @@ fn rot(m: Vec<Vec<usize>>) -> Vec<Vec<usize>> {
 
     for i in 0..size {
         for j in 0..size {
-            result[i][j] = m[size-j-1][i];
+            result[i][j] = m[size - j - 1][i];
         }
     }
 
